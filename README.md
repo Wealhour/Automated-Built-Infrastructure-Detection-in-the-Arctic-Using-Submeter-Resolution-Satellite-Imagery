@@ -1,57 +1,38 @@
-# Single Image Super Resolution using GANs
+# Automated Built Infrastructure Detection in the Arctic Using Submeter Resolution Satellite Imagery
 ## Credit
 [Convolutional Neural Networks for Automated Built Infrastructure Detection in the Arctic Using Sub-Meter Spatial Resolution Satellite Imagery](https://www.mdpi.com/2072-4292/14/11/2719)
 
+## Dataset
+Imagery layer
+
+[Alaska Department of Natural Resources](http://dnr.alaska.gov/) 
+
+Annotated layer
+
+[North Slope Borough ArcGIS Portal](https://gis-public.north-slope.org/portal/home/) Need VPN if your IP dose not  belong to U.S.A
+
+[OpenStreetMap](https://www.openstreetmap.org/)
 
 
 
+## Results
 
 
-Despite the breakthroughs in accuracy and speed of single image super-resolution using faster and deeper convolutional neural networks, one central problem remains largely unsolved: **how do we recover the finer texture details when we super-resolve at large upscaling factors?**
-## Proposed Method
-In this paper, authors presented SRGAN, a generative adversarial network (GAN) for image superresolution (SR).It allows one to train a generative model G wich is
+The results of this study indicate that the Unet++ model outperforms DeepLabv3 and PSPNet in terms of semantic segmentation accuracy on the Utqiagvik dataset . Additionally, decreasing the dataset size and improving the class balance can further improve the performance of the model.
 
 <p align="center">
-<img width="783" alt="Screenshot 2023-02-13 at 20 16 25" src="https://github.com/https-deeplearning-ai/GANs-Public/blob/master/SRGAN-Generator.png?raw=true">
+<img width="550" alt="Screenshot 2023-02-13 at 20 16 25" src="https://github.com/Wealhour/CCENproject/assets/50286429/97651262-704f-4135-a047-9257b38e6d7e">
 </p>
 
-with the goal of fooling a differentiable discriminator D with following structure
-
 <p align="center">
-<img width="783" alt="Screenshot 2023-02-13 at 20 16 25" src="https://github.com/https-deeplearning-ai/GANs-Public/blob/master/SRGAN-Discriminator.png?raw=true">
-</p>
-
-that is trained to distinguish super-resolved images from real images.
-To achieve this, we propose a perceptual loss function which consists of an adversarial loss and a content loss.
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/50286429/218705342-d7062804-50b9-4fe5-a22c-a1ca602374d2.png"  width='50%' height='50%'/>
- 
-</p>
-
-
-
-The adversarial loss pushes our solution to the natural image manifold using a discriminator network that is trained to differentiate between the super-resolved images and original photo-realistic images.
-<p align="center">
-
-  <img src="https://user-images.githubusercontent.com/50286429/218705557-3d6aac46-5a3b-4b11-95fa-85e31164d3a5.png"  width='50%' height='50%'/>
-</p>
-
-In addition, we use a VGG content loss motivated by perceptual similarity instead of similarity in pixel space.
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/50286429/218706873-ec46ed92-5b6a-4dfc-ad18-7c5109123a3a.png"  width='50%' height='50%'/>
+<img width="550" alt="Screenshot 2023-02-13 at 20 16 25" src="https://github.com/Wealhour/CCENproject/assets/50286429/925785fa-d88c-48d0-85eb-dc5b2294a364">
 </p>
 
 
-All in all, they trained their model for estimating optimal parameters to minimize the loss function they provied, which is
-<p align="center">
- <img src="https://user-images.githubusercontent.com/50286429/218706661-45c85a26-d489-4d1d-8aad-ca37a6ec28dd.png"  width='50%' height='50%'/>
-</p>
 
-## Instructions
-We re-implement the method proposed in this paper using two different frameworks，they are:
-1. Tensorflow which can be found on going to SRGAN-Tensorflow
-2. Pytorch which can be found on going to SRGAN-PyTorch 
+
+## Declaration
+Student project, for educational use only.
 
 
 
@@ -68,5 +49,4 @@ We re-implement the method proposed in this paper using two different frameworks
 
 
 
-# CCENproject
-https://www.mdpi.com/2072-4292/14/11/2719
+
