@@ -26,6 +26,8 @@ Annotated layer
 
 ## Results
 
+To see the detailed report, click [my report](https://github.com/Wealhour/Automated-Built-Infrastructure-Detection-in-the-Arctic-Using-Submeter-Resolution-Satellite-Imagery/blob/main/CAMS__Wang_.pdf)
+
 
 The results of this study indicate that the Unet++ model outperforms DeepLabv3 and PSPNet in terms of semantic segmentation accuracy on the Utqiagvik dataset . Additionally, decreasing the dataset size and improving the class balance can further improve the performance of the model.
 
