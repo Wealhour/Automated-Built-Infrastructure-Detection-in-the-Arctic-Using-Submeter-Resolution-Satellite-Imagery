@@ -18,7 +18,7 @@ Imagery layer
 
 Annotated layer
 
-[North Slope Borough ArcGIS Portal](https://gis-public.north-slope.org/portal/home/) Needs VPN if your IP dose not  belong to U.S.A
+[North Slope Borough ArcGIS Portal](https://gis-public.north-slope.org/portal/home/) Needs VPN if your IP dose not  belong to The U.S
 
 [OpenStreetMap](https://www.openstreetmap.org/)
 
